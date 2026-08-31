@@ -1,0 +1,14 @@
+/* ============================================================
+   LF2 Color Palette — Portfolio Edition
+   Source: the LF2 desktop theme (Ubuntu/GNOME)
+   ============================================================ */
+
+:root {
+  /* Core surfaces */
+  --lf2-void-black:  #080F14;  /* main background, content surfaces */
+  --lf2-deep-navy:   #1A2B6A;  /* banners, cards, popovers, dialogs */
+  --lf2-frame-blue:  #237CFF;  /* borders, separators, structure    */
+  --lf2-slate-blue:  #4A5C8A;  /* hover, selection                  */
+  --lf2-off-white:   #EFF0FF;  /* primary text / titles             */
+  --lf2-royal-blue:  #3B4ED1;  /* accent fallback                   */
+}

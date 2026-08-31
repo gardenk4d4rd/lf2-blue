@@ -1,0 +1,131 @@
+:root {
+  --window-bg-color: #222226;
+  --window-fg-color: #ffffff;
+  --view-bg-color: #1d1d20;
+  --view-fg-color: #ffffff;
+  --success-color: #78e9ab;
+  --success-bg-color: #26a269;
+  --success-fg-color: #ffffff;
+  --warning-color: #ffc252;
+  --warning-bg-color: #cd9309;
+  --warning-fg-color: #000000;
+  --destructive-color: #ff938c;
+  --destructive-bg-color: #c01c28;
+  --destructive-fg-color: #ffffff;
+  --error-color: #ff938c;
+  --error-bg-color: #c01c28;
+  --error-fg-color: #ffffff;
+  --headerbar-bg-color: #2e2e32;
+  --headerbar-fg-color: #ffffff;
+  --popover-bg-color: #1d1d20;
+  --popover-fg-color: #ffffff;
+  --dialog-bg-color: #1d1d20;
+  --dialog-fg-color: #ffffff;
+  --card-bg-color: #252525;
+  --card-fg-color: #ffffff;
+  --sidebar-bg-color: #1d1d20;
+  --sidebar-fg-color: #ffffff;
+  --sidebar-backdrop-color: #1d1d20;
+  --sidebar-border-color: #252525;
+  --secondary-sidebar-bg-color: var(--sidebar-bg-color);
+  --secondary-sidebar-fg-color: var(--sidebar-fg-color);
+  --secondary-sidebar-backdrop-color: var(--sidebar-backdrop-color);
+  --secondary-sidebar-border-color: var(--sidebar-border-color);
+  --blue-1: #99c1f1;
+  --blue-2: #62a0ea;
+  --green-1: #8ff0a4;
+  --yellow-1: #f9f06b;
+  --red-1: #f66151;
+  --purple-1: #dc8add;
+  --purple-2: #c061cb;
+  --orange-1: #ffbe6f;
+  --brown-1: #cdab8f;
+  --light-1: #ffffff;
+  --light-5: #9a9996;
+  --dark-1: #77767b;
+  --accent-color: var(--accent-color);
+  --accent-bg-color: var(--accent-bg-color);
+  --accent-fg-color: var(--accent-fg-color);
+}
+
+toast {
+  background-color: #222226;
+  color: #ffffff;
+}
+toggle:checked {
+  background-color: #252525;
+  color: #ffffff;
+}
+@define-color accent_bg_color #237CFF;
+@define-color accent_fg_color #EFF0FF;
+@define-color accent_color   #237CFF;
+
+:root {
+  /* -- Main surfaces -- */
+  --window-bg-color: #080F14;      /* Void      - main bg */
+  --window-fg-color: #EFF0FF;      /* Off-White - primary text */
+
+  --view-bg-color: #080F14;        /* Void      - content surfaces */
+  --view-fg-color: #EFF0FF;
+
+  --headerbar-bg-color:       #1A2B6A;  /* Deep Navy - header */
+  --headerbar-backdrop-color: #0F1A40;
+  --headerbar-fg-color:       #EFF0FF;
+
+  --popover-bg-color: #080F14;   /* Void - menus/popovers */
+  --popover-fg-color: #EFF0FF;
+  --dialog-bg-color:  #1A2B6A;   /* Deep Navy - dialogs */
+  --dialog-fg-color:  #EFF0FF;
+
+  --card-bg-color: #1A2B6A;      /* Deep Navy - cards */
+  --card-fg-color: #EFF0FF;
+
+  --sidebar-bg-color:        #080F14;
+  --sidebar-fg-color:        #EFF0FF;
+  --sidebar-backdrop-color:  #080F14;
+  --sidebar-border-color:    #4A5C8A;  /* Slate Blue - less prominent */
+
+  --secondary-sidebar-bg-color:       #1A2B6A;
+  --secondary-sidebar-fg-color:       #EFF0FF;
+  --secondary-sidebar-backdrop-color: #1A2B6A;
+  --secondary-sidebar-border-color:   #4A5C8A;
+
+  /* -- Accent: Royal Blue -- */
+  --accent-bg-color:     #237CFF;
+  --accent-bg-color-rgb: 35 124 255;
+  --accent-fg-color:     #EFF0FF;
+  --accent-color:        #237CFF;
+
+  /* -- Blues -- */
+  --blue-1: #237CFF;
+  --blue-2: #237CFF;
+  --blue-3: #3B4ED1;
+  --blue-4: #2E3BB0;
+  --blue-5: #4A5C8A;
+
+  --light-4: #237CFF;
+  --light-5: #4A5C8A;
+
+  --dark-3: #080F14;
+  --dark-4: #0F1A40;
+  --dark-5: #080F14;
+}
+
+frame.border,
+separator {
+  border-color: #237CFF;
+  color: #237CFF;
+}
+
+
+*:selected {
+    color: var(--accent-bg-color);
+}
+
+*:checked:not(expander) {
+    color: var(--accent-fg-color);
+    background-color: var(--accent-bg-color);
+}
+
+@define-color accent_bg_color #237CFF;
+@define-color accent_fg_color #EEEEEE;

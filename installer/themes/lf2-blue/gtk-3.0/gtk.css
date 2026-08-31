@@ -1,0 +1,556 @@
+@define-color blue-1 #237CFF;
+@define-color blue-2 #237CFF;
+@define-color blue-3 #3B4ED1;
+@define-color blue-4 #2E3BB0;
+@define-color blue-5 #4A5C8A;
+@define-color green-1 #8ff0a4;
+@define-color green-2 @green-2;
+@define-color green-3 @green-3;
+@define-color green-4 @green-4;
+@define-color green-5 @green-5;
+@define-color yellow-1 #f9f06b;
+@define-color yellow-2 @yellow-2;
+@define-color yellow-3 @yellow-3;
+@define-color yellow-4 @yellow-4;
+@define-color yellow-5 @yellow-5;
+@define-color orange-1 #ffbe6f;
+@define-color orange-2 @orange-2;
+@define-color orange-3 @orange-3;
+@define-color orange-4 @orange-4;
+@define-color orange-5 @orange-5;
+@define-color red-1 #f66151;
+@define-color red-2 @red-2;
+@define-color red-3 @red-3;
+@define-color red-4 @red-4;
+@define-color red-5 @red-5;
+@define-color purple-1 #dc8add;
+@define-color purple-2 #c061cb;
+@define-color purple-3 @purple-3;
+@define-color purple-4 @purple-4;
+@define-color purple-5 @purple-5;
+@define-color brown-1 #cdab8f;
+@define-color brown-2 @brown-2;
+@define-color brown-3 @brown-3;
+@define-color brown-4 @brown-4;
+@define-color brown-5 @brown-5;
+@define-color light-1 #ffffff;
+@define-color light-2 @light-2;
+@define-color light-3 @light-3;
+@define-color light-4 #237CFF;
+@define-color light-5 #4A5C8A;
+@define-color dark-1 #77767b;
+@define-color dark-2 @dark-2;
+@define-color dark-3 #080F14;
+@define-color dark-4 #0F1A40;
+@define-color dark-5 #080F14;
+@define-color accent-bg-color #237CFF;
+@define-color accent-color #237CFF;
+@define-color accent-fg-color #EEEEEE;
+@define-color destructive-bg-color #f66151;
+@define-color destructive-color #f66151;
+@define-color destructive-fg-color #080F14;
+@define-color success-bg-color #8ff0a4;
+@define-color success-fg-color #080F14;
+@define-color warning-color #f66151;
+@define-color warning-bg-color #f66151;
+@define-color warning-fg-color #080F14;
+@define-color error-bg-color #f66151;
+@define-color error-fg-color #080F14;
+@define-color success-color mix(#26a269,white,0.4);
+@define-color error-color mix(#c01c28,white,0.4);
+@define-color window-bg-color #080F14;
+@define-color window-fg-color #EFF0FF;
+@define-color view-bg-color #080F14;
+@define-color view-fg-color #EFF0FF;
+@define-color headerbar-bg-color #1A2B6A;
+@define-color headerbar-fg-color #EFF0FF;
+@define-color headerbar-border-color #1A2B6A;
+@define-color headerbar-backdrop-color #080F14;
+@define-color headerbar-shade-color rgba(0, 0, 6, 0.36);
+@define-color headerbar-darker-shade-color rgba(0, 0, 12, 0.9);
+@define-color sidebar-bg-color #080F14;
+@define-color sidebar-fg-color #EFF0FF;
+@define-color sidebar-backdrop-color #080F14;
+@define-color sidebar-shade-color rgba(0, 0, 6, 0.25);
+@define-color sidebar-border-color rgba(0, 0, 6, 0.36);
+@define-color card-bg-color #1A2B6A;
+@define-color card-fg-color #EFF0FF;
+@define-color card-shade-color rgba(0, 0, 6, 0.36);
+@define-color dialog-bg-color mix(#080F14, black, 0.8);
+@define-color dialog-fg-color #EFF0FF;
+@define-color popover-bg-color mix(#080F14, black, 0.8);
+@define-color popover-fg-color #EFF0FF;
+@define-color popover-shade-color rgba(0, 0, 6, 0.25);
+@define-color thumbnail-bg-color #1A2B6A;
+@define-color thumbnail-fg-color #EFF0FF;
+@define-color shade-color rgba(0, 0, 6, 0.25);
+@define-color scrollbar-outline-color rgba(0, 0, 12, 0.95);
+@define-color panel-bg-color #080F14;
+@define-color panel-fg-color #EFF0FF;
+@define-color theme-fg-color #EFF0FF;
+@define-color theme-text-color #EFF0FF;
+@define-color theme-bg-color #080F14;
+@define-color theme-base-color #080F14;
+@define-color theme-selected-bg-color #237CFF;
+@define-color theme-selected-fg-color #EEEEEE;
+@define-color insensitive-bg-color mix(#080F14,#080F14,0.4);
+@define-color insensitive-fg-color alpha(#EFF0FF,0.5);
+@define-color insensitive-base-color #080F14;
+@define-color theme-unfocused-fg-color mix(#EFF0FF,#080F14,0.5);
+@define-color theme-unfocused-text-color #EFF0FF;
+@define-color theme-unfocused-bg-color #080F14;
+@define-color theme-unfocused-base-color #080F14;
+@define-color theme-unfocused-selected-bg-color #237CFF;
+@define-color theme-unfocused-selected-fg-color #EEEEEE;
+@define-color unfocused-insensitive-color mix(mix(#EFF0FF,#080F14,0.5),#080F14,0.5);
+@define-color borders mix(currentColor,#080F14,0.85);
+@define-color unfocused-borders mix(currentColor,#080F14,0.73);
+@define-color warning-color #ffc252;
+@define-color error-color #ff938c;
+@define-color success-color #78e9ab;
+@define-color wm-title shade(#EFF0FF, 1.8);
+@define-color wm-unfocused-title mix(#EFF0FF,#080F14,0.5);
+@define-color wm-highlight black;
+@define-color wm-borders-edge alpha(#EFF0FF,0.07);
+@define-color wm-bg-a shade(#080F14, 1.2);
+@define-color wm-bg-b #080F14;
+@define-color wm-shadow alpha(black, 0.35);
+@define-color wm-border alpha(black, 0.18);
+@define-color wm-button-hover-color-a shade(#080F14, 1.3);
+@define-color wm-button-hover-color-b #080F14;
+@define-color wm-button-active-color-a shade(#080F14, 0.85);
+@define-color wm-button-active-color-b shade(#080F14, 0.89);
+@define-color wm-button-active-color-c shade(#080F14, 0.9);
+@define-color content-view-bg #080F14;
+@define-color text-view-bg shade(#080F14,0.94);
+
+
+/* Windows */
+* {
+  color: @theme-fg-color;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+window {
+  background-color: @theme-bg-color;
+  color: @theme-fg-color;
+}
+
+.background:not(.nautilus-desktop):not(.desktopwindow) {
+  background-color: #080F14;
+  color: #EFF0FF;
+}
+
+.background.nemo-window, .nemo-desktop {
+  background-color: transparent;
+	color: #EFF0FF;
+}
+
+.nautilus-desktop,
+NautilusWindow.nautilus-desktop {
+  background-color: transparent;
+}
+
+window.desktopwindow {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+window:backdrop {
+  color: @theme-unfocused-fg-color;
+}
+
+.content-view  {
+	background-color: #080F14;
+}
+
+iconview {
+	background-color: #080F14;
+}
+
+iconview > *:hover {
+	background-color: #1A2B6A;
+}
+
+decoration {
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3), 0 0 0 2px shade(transparent, 0.86);
+}
+
+/* Headerbar / titlebar */
+headerbar, .titlebar, toolbar {
+  background-color: #1A2B6A;
+  color: #EFF0FF;
+  border-color: @borders-color;
+  box-shadow: none;
+  border-bottom-color: transparent;
+}
+
+headerbar:backdrop, .titlebar:backdrop {
+  background-color: #1A2B6A;
+  color: mix(#EFF0FF, #1A2B6A, 0.5);
+}
+
+.titlebutton {
+  border: none;
+	background-color: #1A2B6A;
+}
+
+revealer > box  {
+	background-color: #1A2B6A;
+	color: #EFF0FF;
+	border: none;
+}
+
+
+/* Buttons */
+button:not(.close):not(.minimize):not(.maximize):not(.suggested-action):not(.destructive-action) {
+  color: #EFF0FF;
+  border-color: @borders;
+}
+
+button:not(.close):not(.minimize):not(.maximize):not(.suggested-action):not(.destructive-action):not(:checked):not(:hover) {
+  background-color: #1A2B6A;
+}
+
+button:hover:not(.suggested-action):not(.destructive-action) {
+  background-color: shade(#1A2B6A, 0.85);
+}
+
+button:disabled {
+  background-color: @insensitive-bg-color;
+  color: @insensitive-fg-color;
+}
+
+.close-button {
+	margin: 5px 0 5px 0;
+}
+
+.suggested-action {
+  background-color: #237CFF;
+  color: #EEEEEE;
+}
+
+.suggested-action > label {
+	color: #EEEEEE;
+}
+
+.suggested-action:hover {
+  background-color: shade(#237CFF, 1.2);
+}
+
+
+.destructive-action {
+  background-color: #f66151;
+  border-color: transparent;
+  color: #77767b;
+}
+
+.destructive-action > label,
+.destructive-action > image {
+  color: #77767b;
+}
+
+.destructive-action:hover {
+  background-color: shade(#f66151, 0.8);
+}
+
+.flat {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.flat:hover {
+  background-color: alpha(#EFF0FF, 0.08);
+}
+
+.radio:checked, .radio:active, button:checked {
+	background-color: mix(#1A2B6A, white, 0.1);
+}
+
+.frame {
+	border-color: mix(#77767b, white, 0.05);
+}
+
+.view {
+  background-color: #080F14;
+}
+
+list {
+  border: none;
+}
+
+/* Text entries, spinbuttons, textviews */
+entry, spinbutton, textview, textview text {
+  background-color: #080F14;
+  color: #EFF0FF;
+  border-color: @borders;
+}
+
+entry:focus, spinbutton:focus, textview:focus {
+  border-color: #237CFF;
+}
+
+entry:disabled, spinbutton:disabled, textview:disabled {
+  background-color: @insensitive-base-color;
+  color: @insensitive-fg-color;
+}
+
+spinbutton > entry {
+	background-color: transparent;
+}
+
+/* Menus / popovers / comboboxes */
+menu, .menu, popover, popover.background {
+  background-color: #080F14;
+  color: #EFF0FF;
+  border-color: transparent;
+}
+
+modelbutton:hover, menuitem:hover {
+	background-color: #1A2B6A;
+	color: #EFF0FF;
+	box-shadow: none;
+}
+
+combobox window.background.popup,
+combobox window.background.popup menu {
+  background-color: #080F14;
+  color: #EFF0FF;
+}
+
+menubar:backdrop {
+	background-color: #080F14;
+}
+
+/* Dialogs */
+window.background.dialog, messagedialog, .dialog {
+  background-color: #1A2B6A;
+  color: #EFF0FF;
+}
+
+.keycap {
+	background-color: #1A2B6A;
+	border: none;
+	color: #EFF0FF;
+}
+
+/* Notebook / tabs */
+
+notebook {
+	border: none;
+	background-image: none;
+}
+
+stack {
+	background-color: transparent;
+}
+
+tab:hover {
+	background-color: #1A2B6A;
+}
+
+notebook > header, notebook:disabled > header {
+  background-color: #1A2B6A;
+  border-color: @borders;
+}
+
+notebook > header tab {
+  color: mix(#EFF0FF, #1A2B6A, 0.5);
+}
+
+notebook > header tab:checked {
+  background-color: #080F14;
+  color: #EFF0FF;
+}
+
+notebook > header tab:hover {
+  color: #EFF0FF;
+}
+
+tab {
+	background-color: mix(#080F14, #1A2B6A, 0.5);
+	border: none;
+}
+
+tab:checked {
+	background-color: mix(#237CFF, #1A2B6A, 0.9);
+}
+
+/* Scrollbars */
+scrollbar {
+	background-color: #1A2B6A;
+	border: none;
+}
+
+scrollbar slider {
+  background-color: mix(#EFF0FF, #080F14, 0.4);
+  min-width: 6px;
+  min-height: 6px;
+}
+
+scrollbar slider:hover {
+  background-color: #237CFF;
+}
+
+scrollbar trough {
+  background-color: transparent;
+}
+
+.floating-bar {
+	background-color: #1A2B6A;
+	border: none;
+}
+
+/* Lists */
+treeview, list, listview {
+  color: #EFF0FF;
+	background-color: mix(#080F14, black, 0.1);
+}
+
+treeview:selected, row:selected, list row:selected {
+  background-color: #1A2B6A;
+  color: #EFF0FF;
+}
+
+treeview.view.cell:selected:focus label,
+row:selected label {
+  color: #EFF0FF;
+}
+
+/* Sidebars */
+.sidebar, list.sidebar, .navigation-sidebar {
+  background-color: #080F14;
+  color: #EFF0FF;
+  border-color: #4A5C8A;
+}
+
+.sidebar:backdrop, list.sidebar:backdrop {
+  background-color: #080F14;
+}
+
+.sidebar row:selected, .navigation-sidebar row:selected {
+  background-color: #1A2B6A;
+  color: #EFF0FF;
+}
+
+/* Cards */
+.card, frame.card {
+  background-color: #1A2B6A;
+  color: #EFF0FF;
+}
+
+viewport {
+  background-color: #080F14;
+  color: #EFF0FF;
+}
+
+/* Checkbuttons / radios / switches */
+checkbutton check, radiobutton radio {
+  background-color: #080F14;
+  border-color: @borders;
+}
+
+checkbutton check:checked, radiobutton radio:checked {
+  background-color: #237CFF;
+  border-color: #237CFF;
+  color: #EEEEEE;
+}
+
+switch {
+  background-color: #4A5C8A;
+  border-color: transparent;
+}
+
+switch:checked {
+  background-color: #237CFF;
+}
+
+switch slider {
+  background-color: white;
+  border-color: transparent;
+}
+
+/* Sliders / progress bars */
+scale trough {
+  background-color: #4A5C8A;
+  border: none;
+}
+
+scale highlight {
+  background-color: #237CFF;
+}
+
+scale slider {
+  background-color: #EFF0FF;
+  border-color: @borders;
+}
+
+progressbar trough {
+  background-color: #4A5C8A;
+}
+
+progressbar progress {
+  background-color: #237CFF;
+}
+
+/* Tooltips / separators / frames / statusbar */
+tooltip, tooltip.background {
+  background-color: #080F14;
+  color: #EFF0FF;
+  border-color: transparent;
+}
+
+tooltip decoration,
+window.background.tooltip decoration {
+  box-shadow: none;
+}
+
+separator {
+  background-color: @borders;
+  min-width: 1px;
+  min-height: 1px;
+}
+
+frame > border, frame border {
+  border-color: @borders;
+}
+
+statusbar {
+  background-color: #080F14;
+  color: #EFF0FF;
+}
+
+/* Links, spinners, selection */
+label.link, link {
+  color: #237CFF;
+}
+
+label.link:visited, link:visited {
+  color: mix(#237CFF, black, 0.9);
+}
+
+spinner {
+  color: #237CFF;
+}
+
+selection, *:selected {
+  background-color: #237CFF;
+  color: #EEEEEE;
+}
+
+/* 19. Info bars / state colors  */
+infobar.info, infobar.question { background-color: #237CFF; color: #EEEEEE; }
+infobar.warning                { background-color: #ffc252;  color: #080F14; }
+infobar.error                  { background-color: #ff938c;    color: #EEEEEE; }
+
+separator {
+  background: mix(currentColor,#080F14,0.85);
+  min-width: 1px;
+  min-height: 1px;
+}
+
+/* Other */
+.welcome, actionbar, .table-header {
+  background-color: #080F14;
+}

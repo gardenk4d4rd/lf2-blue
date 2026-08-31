@@ -1,0 +1,19 @@
+{
+    "light-theme": "Nord \ud83c\udfd4\ufe0f.css",
+    "dark-theme": "lf2 v0.3.css",
+    "window-controls": "default",
+    "modify-gtk3-theme": true,
+    "modify-gnome-shell": true,
+    "run-in-background": true,
+    "transparency": false,
+    "window": false,
+    "sharp": false,
+    "accent-fg": true,
+    "accent-tabs": true,
+    "firefox-theme": true,
+    "light-text": true,
+    "dark-panel": false,
+    "trans-panel": false,
+    "no-pills": false,
+    "accent": "'blue'"
+}

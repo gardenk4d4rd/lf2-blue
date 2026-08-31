@@ -1,0 +1,9 @@
+# LF2 Blue schema — checksum manifest (source of truth)
+# Run `bash checksum.sh` to verify the schema still reproduces the shipped artifacts.
+
+556f2879fb38b2c53ee8dd7da609ba478ec652e1bc538335a6b5c20eddf9070b  sources/lf2-blue-theme.css
+5b4f694521b6c251e6f29405723a0ae09345dd57317d5667b052ed14645a8895  sources/rewaita-gtk3-template.css
+1d780b11d4b42f5da571aed25b472f67c93e575da672f4b2af5f65c211f0c44a  sources/rewaita-shell-template.css
+1d87772acd366a6d8395491641b613ab10477c30f3fa1923a2e6a08f58721dfc  sources/rewaita-css_templates.py
+89fa1096fb730a3cf03a9bc01d146f7117156a587c51e8e3e62cbe36e7f0a0d0  sources/rewaita-prefs.json
+e59b3e810f7a80ff349d6513c8fa1eec0ac1fe3feb6da2e57a1e2c7eaf2dc6e4  build/build.py
