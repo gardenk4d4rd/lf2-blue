@@ -58,11 +58,11 @@ immediately. To roll back:
 
 > **Note:** Collage showcasing desktop, gnome shell panels, and nautilus.  Mock previews generated to showcase the palette without exposing personal files.
 
-![lf2 blue](screenshots/collage.png)
 
-| Files (Nautilus) | Text Editor |
+
+| Collage|
 |---|---|
-| ![Files](screenshots/files.png) |
+| ![Files](screenshots/collage.png) |
 
 
 ## The palette
