@@ -56,8 +56,8 @@ immediately. To roll back:
 
 ## Screenshots
 
-> **Note:** Collage showcasing desktop, gnome shell panels, and nautilus.  Mock previews generated to showcase the palette without exposing personal files.
-| ![Collage](screenshots/collage.jpg) |
+> **Note:** Collage showcasing desktop, gnome shell panels, and nautilus. 
+![Collage](screenshots/collage.jpg)
 
 
 ## The palette
