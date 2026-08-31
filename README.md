@@ -56,19 +56,14 @@ immediately. To roll back:
 
 ## Screenshots
 
-> **Note:** Mock previews generated to showcase the palette without exposing personal files. Real GTK4/GTK3/Shell rendering is byte-identical (`schema/checksum.sh`).
+> **Note:** Collage showcasing desktop, gnome shell panels, and nautilus.  Mock previews generated to showcase the palette without exposing personal files.
 
-![LF2 Blue — hero preview](screenshots/hero.png)
+![lf2 blue](screenshots/collage.png)
 
 | Files (Nautilus) | Text Editor |
 |---|---|
-| ![Files](screenshots/01-files.png) | ![Text Editor](screenshots/02-editor.png) |
+| ![Files](screenshots/files.png) |
 
-| Overview (Shell) | Terminal |
-|---|---|
-| ![Overview](screenshots/03-overview.png) | ![Terminal](screenshots/04-terminal.png) |
-
-Individual shots: [`01-files.png`](screenshots/01-files.png) · [`02-editor.png`](screenshots/02-editor.png) · [`03-overview.png`](screenshots/03-overview.png) · [`04-terminal.png`](screenshots/04-terminal.png) · [`hero.png`](screenshots/hero.png)
 
 ## The palette
 
