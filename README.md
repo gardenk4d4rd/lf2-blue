@@ -20,6 +20,7 @@ LF2 Blue/
 ├── LICENSE                      # GPL-3.0-or-later
 ├── README.md                    # this file
 ├── lf2-palette.css              # the LF2 Blue palette as ready-to-use CSS custom properties
+├── screenshots/                 # generative mock previews (hero + 4 shots)
 ├── schema/                      # source of truth — reproducibility + build pipeline
 │   ├── README.md                # schema manifest
 │   ├── checksum.sh              # verify + rebuild + diff pipeline
@@ -52,6 +53,22 @@ immediately. To roll back:
 ```bash
 ./uninstall-lf2.sh
 ```
+
+## Screenshots
+
+> **Note:** Mock previews generated to showcase the palette without exposing personal files. Real GTK4/GTK3/Shell rendering is byte-identical (`schema/checksum.sh`).
+
+![LF2 Blue — hero preview](screenshots/hero.png)
+
+| Files (Nautilus) | Text Editor |
+|---|---|
+| ![Files](screenshots/01-files.png) | ![Text Editor](screenshots/02-editor.png) |
+
+| Overview (Shell) | Terminal |
+|---|---|
+| ![Overview](screenshots/03-overview.png) | ![Terminal](screenshots/04-terminal.png) |
+
+Individual shots: [`01-files.png`](screenshots/01-files.png) · [`02-editor.png`](screenshots/02-editor.png) · [`03-overview.png`](screenshots/03-overview.png) · [`04-terminal.png`](screenshots/04-terminal.png) · [`hero.png`](screenshots/hero.png)
 
 ## The palette
 
