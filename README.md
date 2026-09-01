@@ -54,7 +54,7 @@ immediately. To roll back:
 ./uninstall-lf2.sh
 ```
 
-## Screenshots
+## Gallery
 
 > **Note:** Collage showcasing desktop, gnome shell panels, and nautilus. 
 ![Collage](screenshots/collage.jpg)
