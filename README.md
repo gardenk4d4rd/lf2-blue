@@ -55,8 +55,6 @@ immediately. To roll back:
 ```
 
 ## Gallery
-
-> **Note:** Collage showcasing desktop, gnome shell panels, and nautilus. 
 ![Collage](screenshots/collage.jpg)
 
 
